@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 
 export default function ContactForm() {
@@ -63,7 +63,7 @@ export default function ContactForm() {
       
       {submitStatus === 'success' && (
         <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
-          <p className="text-green-800">Thank you for your message! I'll get back to you within 24 hours.</p>
+          <p className="text-green-800">Thank you for your message! I&apos;ll get back to you within 24 hours.</p>
         </div>
       )}
 
@@ -73,7 +73,7 @@ export default function ContactForm() {
         </div>
       )}
 
-      <form onSubmit={handleSubmit} className="space-y-6">
+      <form onSubmit={handleSubmit} className="space-y-6" noValidate>
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">Name *</label>
           <input 

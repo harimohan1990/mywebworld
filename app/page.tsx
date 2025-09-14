@@ -1,3 +1,4 @@
+// app/page.tsx
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, CheckCircle, Code, Cloud, Brain, Wrench, Users, Star, Mail, Phone, MapPin } from 'lucide-react';
@@ -164,7 +165,7 @@ export default function Home() {
                 Senior Developer with 8+ Years of Experience
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                I'm a full-stack developer who has helped dozens of startups and SMBs build scalable software solutions. 
+                I&apos;m a full-stack developer who has helped dozens of startups and SMBs build scalable software solutions. 
                 My expertise spans modern web technologies, cloud infrastructure, and AI integration.
               </p>
               <div className="grid sm:grid-cols-2 gap-4 mb-8">
@@ -380,7 +381,7 @@ export default function Home() {
               Success Stories
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See how I've helped businesses transform their operations with custom software solutions.
+              See how I&apos;ve helped businesses transform their operations with custom software solutions.
             </p>
           </div>
           
@@ -450,7 +451,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 mb-4">
-                <strong>Problem:</strong> Legacy system couldn't scale, frequent downtime, high maintenance costs.
+                <strong>Problem:</strong> Legacy system couldn&apos;t scale, frequent downtime, high maintenance costs.
               </p>
               <p className="text-gray-600 mb-4">
                 <strong>Solution:</strong> Migrated to AWS with microservices architecture, implemented CI/CD, and monitoring.
@@ -481,12 +482,12 @@ export default function Home() {
           <div className="space-y-8">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">How do you ensure project success?</h3>
-              <p className="text-gray-600">I follow a proven process: detailed requirements gathering, regular check-ins, iterative development, and thorough testing. You'll have full visibility into progress with weekly updates and demos.</p>
+              <p className="text-gray-600">I follow a proven process: detailed requirements gathering, regular check-ins, iterative development, and thorough testing. You&apos;ll have full visibility into progress with weekly updates and demos.</p>
             </div>
             
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">What's your typical project timeline?</h3>
-              <p className="text-gray-600">MVPs typically take 2-4 weeks, full applications 4-8 weeks, and enterprise solutions 8-16 weeks. Timeline depends on complexity and scope, which we'll define clearly upfront.</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">What&apos;s your typical project timeline?</h3>
+              <p className="text-gray-600">MVPs typically take 2-4 weeks, full applications 4-8 weeks, and enterprise solutions 8-16 weeks. Timeline depends on complexity and scope, which we&apos;ll define clearly upfront.</p>
             </div>
             
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -516,7 +517,7 @@ export default function Home() {
                 Ready to Transform Your Business?
               </h2>
               <p className="text-xl text-blue-100 mb-8">
-                Let's discuss your project and see how I can help you build the software solution your business needs.
+                Let&apos;s discuss your project and see how I can help you build the software solution your business needs.
               </p>
               
               <div className="space-y-4">
