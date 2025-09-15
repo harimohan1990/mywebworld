@@ -5,9 +5,9 @@
   
   "scripts": {
     "dev": "next dev",
-    "build": "next build",                 // For SSR: leave like this
-    "start": "next start -p $PORT",        // Important: use $PORT
-    "export": "next export"                // Optional: for static export
+    "build": "next build",                 
+    "start": "next start -p $PORT",       
+    "export": "next export"                
   },
 
   "dependencies": {
