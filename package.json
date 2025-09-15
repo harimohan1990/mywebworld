@@ -2,12 +2,14 @@
   "name": "nextjs",
   "version": "0.1.0",
   "private": true,
+  
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build",                 // For SSR: leave like this
+    "start": "next start -p $PORT",        // Important: use $PORT
+    "export": "next export"                // Optional: for static export
   },
+
   "dependencies": {
     "@types/node": "20.6.2",
     "@types/react": "18.2.22",
